@@ -4,10 +4,6 @@ import styled from 'styled-components'
 import {IconContext} from 'react-icons'
 import {FiPlus, FiMinus} from 'react-icons/fi'
 
-const FaqSection = styled.div'
-
-'
-
 
 const Faq = () => {
   return (

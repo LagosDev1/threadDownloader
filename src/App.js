@@ -46,12 +46,7 @@ function App() {
     <Download />
     <About />
     <Instructions />
-    <Faq title="Is GetThreadsVideos.com free to use?"/>
-    <Faq title=" Can I download Threads videos from private accounts using this tool?"/>
-    <Faq title=" Is it legal to download Threads videos using this tool?"/>
-    <Faq title="Can I download Threads videos on mobile devices using this tool?"/>
-    <Faq title="Are there any limitations on the number of Threads videos I can download using this tool?"/>
-    <Faq title="How long does it take to process and download a Threads video?"/>
+    <Faq />
       </>
     )}
   </div>
