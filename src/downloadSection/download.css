@@ -1,0 +1,61 @@
+.downloadSection{
+    padding: 20px;
+    margin-top: 90px;
+    justify-content: center;
+    text-align: center;
+
+}
+
+h1{
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.input-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  input[type="text"] {
+    border: 3px solid  #12f7ff;
+    font-size: larger;
+    padding: 10px;
+    width: 500px;
+    height: 60px;
+  }
+
+  button {
+    background-color: var(--hover-color);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    height: 60px;
+    font-size: large;
+  }
+
+  button:hover{
+    background-color:#0fc9cf;
+    color: white;
+  }
+  .submit_text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+  }
+
+  p{
+    color: whitesmoke;
+    font-size: small;
+  }
+  
+  a {
+    color:  #12f7ff;
+    text-decoration: underline;
+    font-size: smaller;
+  }
