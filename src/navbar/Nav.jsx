@@ -13,7 +13,7 @@ const Nav = () => {
         <ul class="navlist">
             <li><a href="#home"></a>Downloader</li>
             <li><a href="#about"></a>Threads to MP3</li>
-            <li><a href="#services"></a>English <IoMdArrowDropdown /></li>
+            <li><a href="#services"></a>English<IoMdArrowDropdown /></li>
         </ul>
         <div id="menu-icon" class="bx bx-menu"><GiHamburgerMenu /></div>
       
