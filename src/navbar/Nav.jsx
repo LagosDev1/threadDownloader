@@ -16,7 +16,6 @@ const Nav = () => {
             <li><a href="#services"></a>English<IoMdArrowDropdown /></li>
         </ul>
         <div id="menu-icon" class="bx bx-menu"><GiHamburgerMenu /></div>
-      
     </header>
     </div>
   )

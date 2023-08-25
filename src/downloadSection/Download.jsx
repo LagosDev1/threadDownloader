@@ -17,32 +17,13 @@ const Download = () => {
     event.preventDefault();
     // Perform any desired action with the URL, such as making an API request
     console.log('Submitted URL:', url);
-    handleVideoDownload();
+    // handleVideoDownload();
     // Clear the input field after submission
     setUrl('');
   };
-  const handleVideoDownload = async () => {
-    try {
-      const response = await axios.get(url, { responseType: 'blob' });
-  
-      if (response.status === 200) {
-        // Determine the video's file extension based on response content type
-        const contentType = response.headers['content-type'];
-        const fileExtension = contentType.split('/')[1];
-  
-        // Create a Blob from the response data
-        const blob = new Blob([response.data], { type: contentType });
-  
-        // Create a download link and trigger download
-        const downloadLink = document.createElement('a');
-        downloadLink.href = URL.createObjectURL(blob);
-        downloadLink.download = `downloaded_video.${fileExtension}`;
-        downloadLink.click();
-      }
-    } catch (error) {
-      console.error('Error downloading video:', error);
-    }
-  };
+ 
+
+ 
 
   return (
     <div className='downloadSection'>
