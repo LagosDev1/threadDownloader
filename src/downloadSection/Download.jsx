@@ -1,7 +1,6 @@
 import React from 'react';
 import './download.css';
 import { useState } from 'react'; 
-import axios from 'axios';
 import {ImArrowRight} from 'react-icons/im';
 
 
