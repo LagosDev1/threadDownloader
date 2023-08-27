@@ -8,7 +8,7 @@ import {FiPlus, FiMinus} from 'react-icons/fi'
 const Faq = () => {
   return (
     <div>
-      FAQ
+      Your Faq
     </div>
   )
 }
