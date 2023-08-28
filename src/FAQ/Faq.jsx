@@ -8,7 +8,7 @@ import React from 'react';
 const Faq = () => {
   return (
     <div>
-      Your Faq
+      Faq
     </div>
   )
 }
