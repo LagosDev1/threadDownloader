@@ -37,7 +37,7 @@ const Download = () => {
           <button type="submit" className='submit_text'>Start<ImArrowRight /></button>
         </div>
         <p>
-        By using our service you are to accept our{" "}
+        By using our services you are to accept our{" "}
         <span>
           <a href="/terms-of-use" target='__blank'>Terms of Use.</a>
         </span>
