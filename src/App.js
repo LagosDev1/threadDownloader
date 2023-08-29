@@ -48,6 +48,7 @@ function App() {
     <About />
     <Instructions />
     <Faq />
+    <Footer />
       </>
     )}
   </div>
