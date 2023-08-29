@@ -6,7 +6,7 @@ function Footer() {
     <div className="footer">
       <div class="logo"><span>Threads</span>Mate</div>
       <li href="#contact">Contact Us</li>
-      <li href="#faq">Faq</li>
+      <a href="#nav">Faq</a>
     </div>
   )
 }
