@@ -4,8 +4,9 @@ import './footer.css'
 function Footer() {
   return (
     <div className="footer">
-      <li>Contact Us</li>
-      <li>Faq</li>
+      <div class="logo"><span>Threads</span>Mate</div>
+      <li href="#contact">Contact Us</li>
+      <li href="#faq">Faq</li>
     </div>
   )
 }

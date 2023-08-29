@@ -7,10 +7,10 @@ import React from 'react';
 
 const Faq = () => {
   return (
-    <div>
+    <div className="faq" id='faq'>
       Faq
     </div>
   )
 }
 
-export default Faq
+export default Faq;
