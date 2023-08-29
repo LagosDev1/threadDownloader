@@ -5,6 +5,7 @@ import About from './AboutApp/About';
 import Instructions from './Instruction&features/Instructions';
 import Faq from './FAQ/Faq';
 import HashLoader from "react-spinners/HashLoader";
+import Footer from './footer/Footer';
 import { useState } from 'react';
 import { useEffect } from 'react';
 
