@@ -9,6 +9,8 @@ const Faq = () => {
   return (
     <div className="faq" id='faq'>
         <h1 className="faqHeader" id="faqHeader">Faq</h1>
+        <article className='question'></article>
+        <p className="answer" id="answer"></p>
     </div>
   )
 }
