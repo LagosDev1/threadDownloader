@@ -9,6 +9,16 @@ const showAnswer = () => {
   if (answer)  return;
   let div =document.createElement("div");
   let text= "This is the Answer";
+  let button1 = "<button id='btn'>Show</button>";
+  // let htmlString="<h2>"+text+"</h2>" +"<p> "+button1+" </p><br/>" ;
+  // let btn = document.querySelector('#btn')
+  // if(btn){
+  //   btn.addEventListener('click',()=>{
+  //     let newDiv = document.createElement("div")
+  //     newDiv.setAttribute("id","answer")
+  //     newDiv.innerHTML=`<pre>${htmlString}</pre>`
+  //     // console.log(`<pre>${htmlString}</pre>`)
+  //     var parentNode = document.body || document.documentElement;
 }
 
 const Faq = () => {
