@@ -8,7 +8,7 @@ import React from 'react';
 const Faq = () => {
   return (
     <div className="faq" id='faq'>
-      The Faq
+        <h1 className="faqHeader" id="faqHeader">Faq</h1>
     </div>
   )
 }
