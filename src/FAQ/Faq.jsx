@@ -9,8 +9,8 @@ const Faq = () => {
   return (
     <div className="faq" id='faq'>
         <h1 className="faqHeader" id="faqHeader">Faq</h1>
-        <article className='question'></article>
-        <p className="answer" id="answer"></p>
+        <article className='question'>Is GetThreadsVideos.com free to use</article>
+        <p className="answer" id="answer">Yes, the Threads Video Downloader tool at GetThreadsVideos.com is completely free to use. We believe in providing a convenient and accessible solution for downloading Threads videos without any cost.</p>
     </div>
   )
 }
