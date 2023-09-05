@@ -25,7 +25,7 @@ const Download = () => {
 
   return (
     <div className='downloadSection'>
-      <h1>Download Your Videos from Threads</h1>
+      <h1>Download Videos from Threads</h1>
       <form onSubmit={handleSubmit}>
         <div className="input-container">
           <input
