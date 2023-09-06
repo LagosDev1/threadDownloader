@@ -2,5 +2,31 @@
     display: flex;
     height: 100vh;
     width: 100vw;
+    padding: 15px;
+    /* justify-content: center; */
+    /* text-align: center; */
+}
+.accordion{
+    width: 500px;
+}
 
+.item{
+    background: #424242;
+    margin-bottom: 5px;
+    padding: 10px 20px;
+}
+
+
+.title{
+    font-size: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.content{
+    font-size: 12px;
+    max-height: 0;
+    overflow: hidden; 
 }

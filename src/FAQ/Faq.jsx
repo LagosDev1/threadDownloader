@@ -1,4 +1,5 @@
 import React from 'react';
+import './faq.css';
 // import { Data } from './Data';
 
  
@@ -6,12 +7,24 @@ import React from 'react';
 const Faq = () => {
   return (
     <div className="wrapper" id='wrapper'>
-        
+        <div className="accordion">
+
+            {data.map((item, i) => (
+            <div className="item">
+                <div className="title">
+                  <h2>{item.question}</h2>
+                  <span>+</span>
+                </div>
+                <div className="content">{item.answer}</div>
+              </div>
+
+            ))}
+        </div>
     </div>
   )
 }
 
- const Data = [
+ const data = [
   {
       question: " Is GetThreadsVideos.com free to use?",
       answer: "Yes, the Threads Video Downloader tool at GetThreadsVideos.com is completely free to use. We believe in providing a convenient and accessible solution for downloading Threads videos without any cost."
