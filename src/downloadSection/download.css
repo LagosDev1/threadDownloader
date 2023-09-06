@@ -1,15 +1,3 @@
-/* .downloadSection{
-  position: relative;
-  transform: translateY(150px);
-  opacity: 0;
-  transition: 2s all ease;
-}
-
-.downloadSection.active{
-  transform: translateY(0);
-  opacity: 1;
-}  */
-
 
 .downloadSection{
     padding: 20px;
