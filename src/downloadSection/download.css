@@ -1,4 +1,20 @@
 .downloadSection{
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: 2s all ease;
+}
+#about .downloadSection a {
+  position: absolute;
+  }
+  
+.downloadSection.active{
+  transform: translateY(0);
+  opacity: 1;
+}
+
+
+.downloadSection{
     padding: 20px;
     margin-top: 90px;
     justify-content: center;
