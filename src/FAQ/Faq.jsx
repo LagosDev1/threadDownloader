@@ -1,17 +1,26 @@
 import React from 'react';
 import './faq.css';
+import {useState} from 'react';
 // import { Data } from './Data';
 
  
 
 const Faq = () => {
+  const [selected, setSelected] = useState(null)
+  
+  const toggle = (i) => {
+ 
+  }
+
+
+
   return (
     <div className="wrapper" id='wrapper'>
         <div className="accordion">
 
             {data.map((item, i) => (
             <div className="item">
-                <div className="title">
+                <div className="title" onClick={() => toggle(i)}>
                   <h2>{item.question}</h2>
                   <span>+</span>
                 </div>
