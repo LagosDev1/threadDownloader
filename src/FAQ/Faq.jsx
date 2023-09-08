@@ -1,7 +1,8 @@
 import React from 'react';
 import './faq.css';
 import {useState} from 'react';
-import {AiFillCaretDown} from 'react-icons';
+import {BiSolidDownArrow} from 'react-icons/bi';
+import {BiSolidUpArrow} from 'react-icons/bi';
 
 
  
@@ -30,7 +31,7 @@ const Faq = () => {
             <div className="item">
                 <div className="title" onClick={() => toggle(i)}>
                   <h2>{item.question}</h2>
-                  <span>{selected ===i? <AiFillCaretDown/> : "+"}</span>
+                  <span>{selected ===i? <BiSolidUpArrow/> : <BiSolidDownArrow />}</span>
                 </div>
                 <div className={selected ===i?  "content show" : "content"}>{item.answer}</div>
               </div>

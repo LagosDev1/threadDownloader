@@ -31,6 +31,7 @@
 }
 
 .content{
+    background: #424242;
     font-size: 12px;
     max-height: 0;
     overflow: hidden; 
