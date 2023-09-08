@@ -22,11 +22,12 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    cursor: pointer;
     
 }
 
 .content{
     font-size: 12px;
-    max-height: 0;
+    max-height: 9999px;
     overflow: hidden; 
 }
