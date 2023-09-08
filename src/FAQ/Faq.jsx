@@ -1,6 +1,7 @@
 import React from 'react';
 import './faq.css';
 import {useState} from 'react';
+import {AiFillCaretDown} from 'react-icons';
 
 
  
@@ -29,7 +30,7 @@ const Faq = () => {
             <div className="item">
                 <div className="title" onClick={() => toggle(i)}>
                   <h2>{item.question}</h2>
-                  <span>{selected ===i?  "-" : "+"}</span>
+                  <span>{selected ===i? <AiFillCaretDown/> : "+"}</span>
                 </div>
                 <div className={selected ===i?  "content show" : "content"}>{item.answer}</div>
               </div>
