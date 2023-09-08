@@ -1,10 +1,14 @@
+.faqTitle{
+    margin-top: 20px;
+}
 .wrapper{
     display: flex;
     height: 100vh;
     width: 100vw;
     padding: 15px;
-    /* justify-content: center; */
-    /* text-align: center; */
+    margin-top: 30px;
+    justify-content: center; 
+     /* text-align: center; */
 }
 .accordion{
     width: 500px;
@@ -28,6 +32,14 @@
 
 .content{
     font-size: 12px;
-    max-height: 999px;
+    max-height: 0;
     overflow: hidden; 
+    overflow: hidden;
+    transition: all 1s cubic-bezier(0,1,0,1);
+}
+
+.content.show {
+    height: auto;
+    max-height: 9999px;
+    transition: all 1s cubic-bezier(1,0,1,0);
 }
