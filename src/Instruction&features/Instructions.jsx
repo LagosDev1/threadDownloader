@@ -26,7 +26,7 @@ const Instructions = () => {
              </li> 
              <li>
                <AiOutlineCheck className='service__list-icon'/>
-               <p>Compatibility</p>
+               <p>Compatibility.</p>
              </li> 
              <li>
                <AiOutlineCheck className='service__list-icon'/>
