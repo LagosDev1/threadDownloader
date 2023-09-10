@@ -24,6 +24,7 @@ const Faq = () => {
     <div className="faqTitle">
       <h1>FAQ</h1><br/>
 
+
     <div className="wrapper" id='wrapper'>
         <div className="accordion">
 
@@ -61,7 +62,7 @@ const Faq = () => {
 
   {
       question: " Can I download Threads videos on mobile devices using this tool?",
-      answer: "Yes, you can use GetThreadsVideos.com on your mobile devices, including smartphones and tablets, to download Threads videos. Our website is designed to be compatible with various devices and operating systems, providing a seamless experience across different platforms."
+      answer: "Yes, You can use GetThreadsVideos.com on your mobile devices, including smartphones and tablets, to download Threads videos. Our website is designed to be compatible with various devices and operating systems, providing a seamless experience across different platforms."
   },
 
   {
