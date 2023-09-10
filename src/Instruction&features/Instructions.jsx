@@ -24,10 +24,7 @@ const Instructions = () => {
                <AiOutlineCheck className='service__list-icon'/>
                <p>High-quality Video Downloads</p>
              </li> 
-             <li>
-               <AiOutlineCheck className='service__list-icon'/>
-               <p>Compatibility.</p>
-             </li> 
+             
              <li>
                <AiOutlineCheck className='service__list-icon'/>
                <p>Free and secure</p>
