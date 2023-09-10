@@ -71,6 +71,7 @@ const Faq = () => {
   },
 
   {
+
       question: "  How long does it take to process and download a Threads video? ",
       answer: "The processing and download time for Threads videos may vary depending on factors such as video length, internet connection speed, and server load. In most cases, our tool processes and downloads videos quickly, allowing you to access them within a few seconds or minutes."
   },
