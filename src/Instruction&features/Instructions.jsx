@@ -23,8 +23,7 @@ const Instructions = () => {
              <li>
                <AiOutlineCheck className='service__list-icon'/>
                <p>High-quality Video Downloads</p>
-             </li> 
-             
+             </li>
              <li>
                <AiOutlineCheck className='service__list-icon'/>
                <p>Free and secure</p>
