@@ -1,6 +1,6 @@
 import React from 'react';
 import './instructions.css';
-import {AiOutlineCheck} from 'react-icons/ai'
+import {AiOutlineCheck} from 'react-icons/ai';
 
 
 const Instructions = () => {
