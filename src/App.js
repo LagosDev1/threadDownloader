@@ -23,7 +23,7 @@ function App() {
     <div>
     {loading ? (
        <div
-        style={{
+          style={{
           display: 'flex',
           justifyContent: 'center',
           alignItems: 'center',
@@ -32,6 +32,7 @@ function App() {
           height: '100vh',
         }}
       >
+      
       
      <HashLoader
       color={"#12f7ff"}
