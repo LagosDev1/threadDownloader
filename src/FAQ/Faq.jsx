@@ -47,7 +47,7 @@ const Faq = () => {
  const data = [
   {
       question: " Is GetThreadsVideos.com free to use?",
-      answer: "Yes, the Threads Video Downloader tool at GetThreadsVideos.com is completely free to use. We believe in providing a convenient and accessible solution for downloading Threads videos without any cost."
+      answer: "Yes!, the Threads Video Downloader tool at GetThreadsVideos.com is completely free to use. We believe in providing a convenient and accessible solution for downloading Threads videos without any cost."
   },
 
   {
